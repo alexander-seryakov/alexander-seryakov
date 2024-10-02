@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Seryakov CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="inner-nav"></div>
+    <div id="container">
+        <div id="profile">
+            <div id="image">
+                <img id="profile-photo" src="./static/avatar.bmp" alt="Profile-Image">
+                <a href="#"><i class="fas fa-pen stroke-transparent"></i></a>
+            </div>
+            <p id="name">Александр Серяков<br><span id="email">seryakov78116@gmail.com</span></p>
+            <p id="designation"><strong>Backend Developer</strong><br><span id="college"></span>Python/Go</p>
+            <hr width="100%">
+            <!-- <div id="about">
+                <p style="display:inline;">Обо мне: </p>
+                <a href="#"><i class="fas fa-pen stroke-transparent-blue"></i></a>
+            </div> -->
+            <!-- <p id="year-graduation">Expected Year of Graduation<br><strong>March, 2014</strong></p> -->
+            <p id="education"><strong>Образование: </strong><br><br>Петербургский государственный университет путей сообщения
+                    Императора Александра I</p>
+            <p id="more-about"><strong>Обо мне: </strong><br><br><span>Люблю активный отдых и программирование.</span></p>
+            <span>Свободное время стараюсь проводить на природе, это помогает приводить в порядок ум и генерировать
+                новые творческие идеи!</span>
+            <br>
+            <br>
+            <span>Считаю, что и программирование является больше творчеством, нежели чем-то сухим и скучным :)</span>
+            <br><br>
+            <span>В последнее время начал всё больше интересоваться разработкой на языке GO и хочу дальше двигаться в этом напрамлении!</span>
+            <br><br><br>
+            <p><strong>Контакты: </strong></p>
+            <p id="telephone">Telegram<br><a href="https://t.me/the01world"><strong> @the01world</strong></a></p>
+            <p id="telephone">GitHub<br><a href="https://github.com/vrnxx"><strong> github.com/vrnxx</strong></a></p>
+        </div>
+        <div id="info-cards">
+            <div class="card">
+                <p><i class="fas fa-briefcase stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Опыт работы</p>
+                <ul>
+                    <li>
+                        <p class="tags">ARTW studio<br><span>Backend Developer | <span>Февраль 2023 — настоящее время 1
+                                    год 9 месяцев</span></span></p>
+                    <li>
+                        <p>
+                            Outstaff/Outsource компания, преимущественно работающая с девелоперами такими как:
+                            Страна Девелопмент, Самолёт. Также в качестве аутстафф-услуг сотрудничает с МТС.
+                        </p>
+                        <p>
+                            Работал за весь период на 3-х проектах.
+                        </p>
+                        <ol>
+                            <li>
+                                <span><strong>Внутренний проект</strong></span>
+                                <br>
+                                <br>
+                                <span><strong>Стэк: </strong> Go, Echo, sql-migrate, Testify, PostgreSQL,
+                                    NATS</span><br>
+                                <span><strong>Описание проекта: </strong>Внутренний продукт для сбора статистики по
+                                    клиентам компании (проекты, сколько
+                                    команд
+                                    работает с клиентом, длительность и т.д).</span><br>
+                                <span><strong>Основные задачи:</strong></span><br>
+                                <ul>
+                                    <li>Сбор данных по клиентам из различных источников компании
+                                    <li>Сохранение данных по клиентам в заданной структуре
+                                    <li>Регулярная актуализация данных
+                                </ul>
+                            </li>
+                            <br>
+                            <br>
+                            <li>
+                                <span><strong>Сервис "Статус лояльности агента"</strong></span><br><br>
+                                <span><strong>Стэк:</strong>Python3.11, FastAPI, Django(только для админки), SQLAlchemy,
+                                    PostgreSQL, RabbitMQ, Redis,
+                                    Sentry, Pytest</span><br>
+                                <span><strong>Описание проекта: </strong>Микросервис, отвечающий за работу со статусами
+                                    и привилегиями агентов недвижимости.</span><br>
+                                <span><strong>Основные задачи:</strong></span><br>
+                                <ul>
+                                    <li>Реализация всего микросервиса с нуля
+                                    <li>Выстраивание архитектуры. Трёхслойная + Чистая архитектура + некоторые элементы
+                                        DDD
+                                    <li>Настройка взаимодействия с основным приложением клиента (модульный монолит)
+                                        через
+                                        брокер сообщений RabbitMQ
+                                    <li>Покрытие кода тестами, unit/интеграционные, покрытие на 75-80% (coverage)
+                                    <li>Разработка схемы таблиц Базы данных, согласование с аналитиками
+                                </ul>
+                            </li>
+                            <br>
+                            <br>
+                            <li>
+                                <span><strong>Сервис для просмотра и оформления сделок по приобретению
+                                        недвижимости</strong></span><br><br>
+                                <span><strong>Стэк:</strong>Python3.11, FastAPI, Django(для админки), SQLAlchemy,
+                                    PostgreSQL, Celery, Redis, Sentry,
+                                    Pytest,
+                                    Sentry, Pytest</span><br>
+                                <span><strong>Описание проекта: </strong>Основное приложение клиента. Модульный монолит,
+                                    содержит логику отображения доступных
+                                    к покупке объектов недвижимости(квартиры, паркинг, клубные дома и т.д), личный
+                                    кабинет
+                                    пользователя/агента/компании, админка(разделённая для компании и агента).</span><br>
+                                <span><strong>Основные задачи:</strong></span><br>
+                                <ul>
+                                    <li>Code Review коллег.
+                                    <li>Поддержка модульного монолита.
+                                    <li>Интеграции со сторонними сервисами, amoCRM клиента.
+                                    <li>Работа с фоновыми задачами Celery, Celery beat.
+                                    <li>Настройка и подключение кэширования(Redis).
+                                    <li>Написание сложных фильтров по категориям.
+                                    <li>Написание unit/интеграционных тестов, работа с Pytest.
+                                    <li>Настройка мониторинга ошибок через Sentry и работа с ними на удалённом сервере.
+                                    <li>Настройка Grafana, Loki для удобной работы с логированием.
+                                    <li>Настройка и использование линтеров flake8, isort, black, а также статического
+                                        анализатора кода
+                                        mypy и другие.
+                                </ul>
+                            </li>
+                        </ol>
+                        <br><br>
+                    <li>
+                        <p class="tags">VicamExpress<br><span>Backend Developer | <span>Октябрь 2021 —
+                                    Февраль 2023 1 год 5 месяцев</span></span></p>
+                    <li>
+                        <p>
+                            Командная разработка CRM системы для малого бизнеса.
+                        </p>
+                        <p>
+                            Домен: продажи на маркетплейсах, услуги самозанятых и ИП.
+                        </p>
+                        CRM система позволяющая легко отслеживать:
+                        <ul>
+                            <li>действующие товары/услуги предпринимателя - налоговые расчёты, доходы за период
+                            <li>вычислять оборот и чистую прибыль
+                            <li>получать аналитику по продажам/услугам за период.
+                        </ul>
+                        <br>
+                        <span>Основные задачи: </span>
+                        <ul>
+                            <li>Разработка API внутреннего продукта для оптимизации учёта товаров, продаж и анализа
+                            финансового оборота компании.
+                            <li>Админка для сотрудников/владельцев.
+                            <li>Разработка API e-commerse приложения на FastAPI для клиентов.
+                            <li>Покрытие проекта тестами, написание и сопровождение документации.
+                            <li>Настройка CI/CD
+                        </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
